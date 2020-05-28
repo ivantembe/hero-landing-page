@@ -1,0 +1,236 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="is-header is-header-contact">
+
+      <!-- MOBILE HEADER AND OFF-CANVAS MENU,
+           VISIBLY ONLY FOR SMALL AND MEDIUM SCREENS -->
+      <div class="off-canvas-wrapper hide-for-large-only">
+
+        <!-- Menu or Off-canvas content -->
+        <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
+          <!-- NAVIGATION OFF-CANVAS -->
+          <nav class="top-bar-right">
+            <h2 class="is-hidden">Mainnavigation</h2>
+            <ul class="menu vertical">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a class="is-menu-link active" href="contact.html">CONTACT US</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- HEADER CONTENT -->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="is-wrapper">
+
+              <!-- TITLE BAR -->
+              <div class="title-bar">
+                <!-- TITLE BAR LOGO -->
+                <div class="title-bar-left">
+                  <span class="title-bar-title"><a href="index.html">HERO BOOST</a></span>
+                </div>
+                <!-- TITLE BAR MENU MOBILE -->
+                <div class="title-bar-right">
+                  <button class="menu-icon" type="button" data-open="mobile-menu"></button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- HEADER LARGE SCREENS:
+           VISIBLY ONLY FOR LARGE SCREENS -->
+      <div class="is-wrapper show-for-large">
+           <!-- LOGO -->
+          <section class="top-bar">
+            <div class="top-bar-left ">
+              <h1 class="is-logo"><a href="index.html">HERO BOOST</a></h1>
+            </div>
+
+            <!-- NAVIGATION -->
+            <nav class="top-bar-right">
+              <h2 class="is-hidden">Mainnavigation</h2>
+              <ul class="menu">
+                <li><a class="is-menu-link" href="index.html">HOME</a></li>
+                <li><a class="is-menu-link" href="about.html">SERVICES</a></li>
+                <li><a class="is-menu-link is-current" href="about.html">ABOUT</a></li>
+                <li><a class="is-menu-link active" href="contact.html">CONTACT US</a></li>
+              </ul>
+            </nav>
+          </section>
+
+          <!-- HERO SECTION -->
+          <section class="is-hero-section is-about-hero is-contact-hero">
+            <!-- HERO SECTION CONTENT: TEXT AND BUTTON -->
+            <article class="is-hero-text">
+              <h4>Contact Us</h4>
+            <!--  <h1>Let’s Talk About Your Project</h1> -->
+              <p>Send us an email at contact@hero-boost.com or fill out the form below and a member of our team will be in touch within one business day.</p>
+            </article>
+        </section>
+    </header>
+
+
+      <!-- MAIN CONTENT-CONTACT-FORM -->
+      <main class="is-main-content is-bgColor-dark is-padding-main">
+        <form class="is-contact-form">
+          <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+              <!-- FIRST AND LAST NAMES FIELD-->
+              <div class="medium-6 cell">
+                <label for="fname">First Name <span id="alertfName" class="warningMessage"></span>
+                  <input type="text" id="fname" name="firstname">
+                </label>
+              </div>
+              <div class="medium-6 cell">
+                <label for="lname">Last Name <span id="alertlName" class="warningMessage"></span>
+                  <input type="text" id="lname" name="lastname">
+                </label>
+              </div>
+
+              <!-- WEBSEITE AND COMPANY FIELD -->
+              <div class="medium-6 cell">
+                <label for="email">Email <span id="alertEmail" class="warningMessage"></span>
+                  <input type="text" id="email" name="email">
+                </label>
+              </div>
+              <div class="medium-6 cell">
+                <label for="phonenumber">Phone Number <span id="alertPhoneNumber" class="warningMessage"></span>
+                  <input type="text" id="phonenumber" name="phonenumber" placeholder="+49-155-000-111-00">
+                </label>
+              </div>
+
+              <!-- MESSAGE FIELD -->
+              <div class="medium-12 cell">
+                <label for="message">Message <span id="alertMessage" class="warningMessage"></span>
+                  <textarea id="message" placeholder=""></textarea>
+                </label>
+              </div>
+
+              <!-- CHECKBOX FIELD -->
+              <fieldset class="medium-12 cell">
+                <input id="terms-and-conditions" type="checkbox"><label for="terms-and-conditions" value="terms-and-conditions">I agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy.</a> <span id="alertTermsConditions" class="warningMessage"></span></label>
+              </fieldset>
+
+              <!-- SEND BUTTON -->
+              <section class="is-button-section is-contact-button-section">
+                <input class="button large is-button-rounded" type="button" onclick="formValidation()" value="Submit">
+
+              <!--  <a href="" class="button large is-button-rounded">SEND MESSAGE</a> -->
+              </section>
+            </div>
+          </div>
+        </form>
+      </main>
+
+
+
+
+      <!-- FOOTER -->
+      <footer>
+        <!-- BLOCK-THREE GRIDS SECTION -->
+        <!-- SHOW FOR SMALL-SCREENS-ONLY -->
+        <section class="is-mainFooter-for-small show-for-small-only">
+          <h4><a href="index.html">HERO BOOST</a></h4>
+          <p>Incididunt ut labore et dolore magna aliqua Incididunt ut labore et dolore magna aliqua Incididunt ut labore et dolore magna aliqua.</p>
+          <nav class="top-bar-right">
+            <h2 class="is-hidden">Footernavigation</h2>
+            <ul class="menu vertical">
+              <li><a href="#">COMPANY</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">RESOURCES</a></li>
+            </ul>
+          </nav>
+          <!-- SOCIAL ICONS SMALL-SCREENS-ONLY -->
+          <figure class="is-social-icons-group">
+            <a href="https://www.facebook.com/"><img src="logos/facebook.png" alt="facebook link icon"></a>
+            <a href="https://www.instagrama.com/"><img src="logos/insta.png" alt="instagrama link icon"</a>
+            <a href="https://www.twitter.com/"><img src="logos/twitter.png" alt="twitter link icon"</a>
+          </figure>
+        </section>
+
+        <!-- SHOW FOR MEDIUM-LARGE-SCREENS-ONLY -->
+        <section class="is-footer-mainSection is-wrapper grid-x is-block-grid hide-for-small-only">
+          <section class="cell small-4 hide-for-medium-only">
+            <article>
+              <h4><a href="main.html">HERO BOOST</a></h4>
+              <p>Incididunt ut labore et dolore magna aliqua Incididunt ut labore et dolore magna aliqua Incididunt ut labore et dolore magna aliqua.</p>
+              <!-- SOCIAL ICONS LARGE-SCREENS-ONLY -->
+              <figure class="is-social-icons-group">
+                <a href="https://www.facebook.com/"><img src="logos/facebook.png" alt="facebook link icon"></a>
+                <a href="https://www.instagrama.com/"><img src="logos/insta.png" alt="instagrama link icon"></a>
+                <a href="https://www.twitter.com/"><img src="logos/twitter.png" alt="twitter link icon"></a>
+              </figure>
+            </article>
+          </section>
+          <section class="cell auto">
+            <nav class="top-bar-right">
+              <h2 class="is-hidden">Footernavigation</h2>
+              <h4>COMPANY</h4>
+              <ul class="menu vertical">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Campaigns</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Legal Information</a></li>
+              </ul>
+            </nav>
+          </section>
+          <section class="cell auto">
+            <nav class="top-bar-right">
+              <h2 class="is-hidden">Footernavigation</h2>
+              <h4>SERVICES</h4>
+              <ul class="menu vertical">
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">Website development</a></li>
+                <li><a href="#">SME</a></li>
+                <li><a href="#">Social Media</a></li>
+                <li><a href="#">Analystics</a></li>
+                <li><a href="#">Affiliate Programs</a></li>
+              </ul>
+            </nav>
+          </section>
+          <section class="cell auto">
+            <nav class="top-bar-right">
+              <h2 class="is-hidden">Footernavigation</h2>
+              <h4>RESOURCES</h4>
+              <ul class="menu vertical">
+                <li><a href="#">News Letter</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Learn Digital Marketing</a></li>
+              </ul>
+            </nav>
+            <!-- SOCIAL ICONS MEDIUM-SCREENS-ONLY -->
+            <figure class="is-social-icons-group show-for-medium-only">
+              <a href="https://www.facebook.com/"><img src="logos/facebook.png" alt="facebook link icon"></a>
+              <a href="https://www.instagrama.com/"><img src="logos/insta.png" alt="instagrama link icon"></a>
+              <a href="https://www.twitter.com/"><img src="logos/twitter.png" alt="twitter link icon"></a>
+            </figure>
+          </article>
+          </section>
+        </section>
+      </footer>
+
+
+
+
+    <!-- JAVASCRIPT LINKS -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

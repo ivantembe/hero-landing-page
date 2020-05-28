@@ -1,0 +1,729 @@
+body {
+  font-family: 'Montserrat', Montserrat, sans-serif;
+  color: #fff;
+}
+h1 {
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  font-family: 'Montserrat';
+}
+h4{
+  font-family: 'Montserrat';
+  letter-spacing: 0.04rem;
+}
+p {
+  font-family: 'Montserrat';
+  letter-spacing: 0.04rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+
+
+
+/* ---------------------------------
+     GLOBAL MODIFIERS STYLES
+  --------------------------------- */
+
+/* OUTLINE-RESET IN HTML DOCUMENT */
+* {
+  outline: none;
+}
+
+.is-wrapper {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.is-textColor-dark {
+  color: #7086A7;
+}
+
+.is-bgColor-dark {
+  background-color: #F7F7F7;
+}
+
+
+
+/* BUTTONS STYLES */
+/* Is a section that wraps a button for cente alignment */
+.is-button-section {
+  text-align: center;
+  width: 100%;
+}
+
+.is-button-rounded {
+  border-radius: 25px;
+  background-color: #FFAB40;
+  margin-top: 2%;
+}
+.is-button-rounded-border {
+  border-radius: 25px;
+  background-color: transparent;
+  border: 1px solid #FFAB40;
+  margin-top: 2%;
+  color: #FFAB40;
+}
+
+.input-group-button .button {
+  background-color: #FFAB40;
+}
+
+.button:hover {
+  background-color: #000;
+  border: none;
+}
+
+.is-contact-button-section {
+  text-align: left;
+}
+
+
+/* OFF-CANVAS STYLES */
+.off-canvas {
+  background-color: #000;
+}
+.off-canvas .menu {
+  padding: 4rem 0 0 0;
+  text-align: center;
+}
+.off-canvas a {
+  color: #fff;
+}
+.off-canvas a:hover {
+  color: #FFAB40;
+}
+/* Off-Canvas Overlay BackgroundColor*/
+.js-off-canvas-overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.off-canvas-content {
+  padding-bottom: 2rem;
+}
+
+
+/* FORMS STYLES */
+.input-group {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.input-group-field {
+  color: #7086A7;
+}
+
+/* Is contact-form */
+.is-contact-form {
+  background-color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  box-shadow: 1px 1px 9px #414141;
+}
+
+.is-contact-form label {
+  color: #7086A7;
+}
+
+.is-contact-form textarea {
+  height: 300px;
+}
+
+.is-padding-main {
+  padding: 4rem 0 8rem 0;
+}
+
+
+.warningMessage {
+  color: red;
+}
+
+
+
+/* ---------------------------------
+     HEADER STYLES
+  --------------------------------- */
+.is-header {
+  background-color: #262D40;
+}
+
+/* Header Top-Bar */
+.title-bar, .top-bar {
+  padding-top: 6%;
+  background: transparent;
+}
+
+.is-header .title-bar-title a, .is-header .is-logo a {
+  color: #fff;
+}
+.is-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+/* Header Top-Bar navigation*/
+.is-menu-link {
+  background-color: #262D40;
+  color: white;
+  font-size: 1rem;
+  box-shadow: none;
+  font-weight: 500;
+}
+.is-menu-link:hover {
+  color: #FFAB40;
+}
+
+.active {
+  color: #FFAB40;
+}
+
+
+/* Header Hero section*/
+.is-hero-section {
+  padding: 4rem 0;
+
+}
+.is-hero-text {
+  text-align: center;
+  padding: 0 1rem 1rem 1rem;
+}
+.is-about-hero h4 {
+  color: #FFAB40;
+}
+
+
+
+/* ---------------------------------
+   MAIN CONTENT STYLES
+--------------------------------- */
+
+/* IS-BLOCK-TITLE */
+.is-block-title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* IS-CONTENT-SMALL-SCREEN TEXT-ALIGN-JUSTIFY */
+.is-textAlign-for-small{
+  text-align: justify;
+}
+
+/* IS-BLOCK-GRID-CELL ELEMENTS */
+.is-block-grid .cell {
+  display: flex;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.is-block-grid figure {
+  width: 25%;
+  padding-right: 1rem;
+}
+
+
+/* IS-MAIN-BLOCK-ONE-CONTENT FOR SMALL SCREENS */
+.is-main-blockOneContent-small {
+  text-align: center;
+  width: 100%;
+  background-color: #F7F7F7;
+  padding: 2rem 0;
+}
+/* IS-MAIN-BLOCK-CONTENT PADDING */
+.is-mainContent-blockOne, .is-mainContent-blockThree, .is-mainContent-blockFour {
+  padding: 8% 0;
+}
+/* IS-MAIN-CONTENT-BLOCK-TWO PELEMENTS */
+.is-mainContent-blockTwo {
+  padding: 5% 4%;
+}
+.is-mainContent-blockTwo .cell figure {
+  width: 80%;
+}
+
+.is-section-two {
+  padding: 7% 0;
+}
+.is-section-two .cell figure {
+  width: 100%;
+  padding-left: 2rem;
+}
+.is-mainContent-blockTwo .is-button-section {
+  text-align: left;
+}
+.is-mainContent-blockTwo .cell article {
+  justify-content: center;
+}
+
+.is-mainContent-blockThree {
+  background-color: #262D40;
+}
+
+
+/* ABOUT-MAIN-CONTENT-BLOCK-ONE ELEMENTS */
+.is-about-textAlign p {
+  padding: 0 6rem;
+}
+
+/* Gallery */
+.is-gallery .cell {
+  padding: 10px;
+}
+.is-gallery img:hover {
+  opacity: .5;
+}
+/* Image-Slider */
+.is-slider {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.is-slider img:hover {
+  opacity: .7;
+}
+
+.owl-nav .owl-prev, .owl-next{
+  width: 50px;
+}
+.owl-item {
+  padding: 0 3rem;
+}
+
+
+/* Image-Slider TEAM MEMBERS NAME */
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.is-slider .item:hover .overlay {
+  opacity: 10;
+}
+
+.is-slider .text h1{
+  color: #fff;
+  background-color: #414141;
+  padding: 1rem;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+/* ---------------------------------
+ FOOTER STYLES
+--------------------------------- */
+/* FOOTER-ELEMENTS FOR SMAL-SCREEN-ONLY */
+.is-mainFooter-for-small {
+  text-align: center;
+  padding: 3rem;
+}
+/* FOOTER-ELEMENTS */
+footer {
+  background-color: #000000;
+}
+
+.is-footer-mainSection .cell h4, p {
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer .is-block-grid .cell {
+  display: grid;
+}
+.is-footer-mainSection {
+  padding: 4% 0;
+  color: #E3E3E3;
+}
+
+/* FOOTER-MENU-LISTS-LINKS */
+footer .menu li a{
+  padding-left: 0;
+  color: #E3E3E3;
+}
+footer .menu li a:hover {
+  color: #FFAB40;
+}
+.is-footer-mainSection h4 a, .is-mainFooter-for-small h4 a  {
+  color: #E3E3E3;
+}
+.is-footer-mainSection h4 a:hover, .is-mainFooter-for-small h4 a:hover {
+  color: #FFAB40;
+}
+
+/* FOOTER-SOCIAL-LINKS */
+.is-social-icons-group {
+  padding-bottom: 6rem;
+}
+.is-social-icons-group img {
+  width: 40px;
+  padding-right: 8px;
+}
+
+.is-social-icons-group img:hover {
+  opacity: .4;
+}
+
+
+
+/* ---------------------------------
+        MEDIA QUERIES STYLES
+  --------------------------------- */
+
+/* SMALL SCREENS WIDTH 320PX (IPHONE 5/SE) */
+@media screen and (width: 320px) {
+
+    /* WRAPPER*/
+    .is-wrapper {
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    /* Headlines Hero Section*/
+    .is-hero-section h1 {
+      font-size: 1.1rem;
+    }
+    .is-hero-section h4 {
+      font-size: 0.75rem;
+    }
+
+    .is-bgColor-dark {
+      background-color: transparent;
+    }
+
+}
+
+/* SMALL SCREENS MAX-WIDTH 375PX MIN-WIDTH 321PX */
+@media screen and (max-width: 375px) and (min-width: 321px) {
+
+    /* WRAPPER*/
+    .is-wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+    /* Headlines Hero Section*/
+    .is-hero-section h1 {
+      font-size: 1.4rem;
+    }
+    .is-hero-section h4 {
+      font-size: 1rem;
+    }
+
+}
+
+/* SMALL SCREENS MAX-WIDTH 320PX (GALAXY S5)*/
+@media screen and (width: 360px) {
+
+    /* WRAPPER*/
+    .is-wrapper {
+      width: 88%;
+      margin: 0 auto;
+    }
+
+    /* Headlines Hero Section*/
+    .is-hero-section h1 {
+      font-size: 1.1rem;
+    }
+    .is-hero-section h4 {
+      font-size: 0.75rem;
+    }
+
+}
+
+
+/* SMALL SCREENS MAX-WIDTH 567PX AND MIN-WIDTH 376PX */
+@media screen and (max-width: 567px) and (min-width: 376px) {
+
+    /* WRAPPER*/
+    .is-wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    /* Headlines Hero Section*/
+    .is-hero-section h1 {
+      font-size: 1.55rem;
+    }
+    .is-hero-section h4 {
+      font-size: 1.1rem;
+    }
+}
+
+/* SMALL SCREENS GLOBAL MAX-WIDTH 640PX ( */
+@media screen and (max-width: 640px) {
+
+    /* FIXED TOP-BAR */
+    .is-header {
+      position: fixed !important;
+      z-index: 10;
+      width: 100%;
+    }
+
+    .is-main-content {
+      padding-top: 5rem;
+    }
+
+
+    /* BLOCK-BACKGROUND-COLOR RESET TO TRANSPARENT FOR SMALL-SCREENS */
+    .is-bgColor-dark {
+      background-color: transparent;
+    }
+
+    /* IS-MAIN-CONTENT-BLOCK-TWO ELEMENTS */
+    .is-mainContent-blockTwo {
+      padding: 2rem 0 0 0;
+    }
+
+    .is-mainContent-blockTwo .cell figure {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .is-mainContent-blockTwo .cell .grid-y {
+      width: 100%;
+      text-align: center;
+    }
+
+    .is-section-two {
+      width: 100%;
+      padding: 8% 0;
+      margin: 0;
+    }
+    .is-section-two .cell {
+      padding-bottom: 0;
+    }
+
+    .is-block-title {
+      padding: 0;
+    }
+
+    /* IS-MAIN-CONTENT-BLOCK-TWO ELEMENTS-BUTTONS */
+    .is-mainContent-blockTwo .is-button-section {
+      text-align: center;
+    }
+    .is-section-two .is-button-section {
+      padding-top: 1.4rem;
+    }
+
+    /* EMAIL SUBSCRIBING FORM HIDE-FOR-SMALL-SCREENS */
+    .input-group, .input-group-button {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .input-group-field {
+      padding: 0.8rem;
+      margin-bottom: 0.4rem;
+    }
+    .input-group-button .button {
+      padding: 1rem;
+      width: 100%;
+    }
+
+    /* ABOUT-PHOTO-GALLERY*/
+    .is-gallery .cell {
+      padding: 5px;
+    }
+
+    .is-wrapper {
+      width: 90%;
+    }
+
+    /* SLIDE CAROUSEL*/
+    .owl-item {
+      padding: 1rem 6rem 0 6rem;
+    }
+
+    .is-social-icons-group img {
+      padding-top: 1rem;
+    }
+
+    /* Is contact-form */
+    .is-contact-form {
+      width: 95%;
+      margin: 0 auto;
+      padding: 2rem 0.9rem;
+      box-shadow: none;
+    }
+}
+
+
+
+
+/* MEDIUM SCREENS MAX-WIDTH 1007PX AND MIN-WIIDTH 568PX*/
+@media screen and (max-width: 1007px) and (min-width: 568px) {
+
+  /* FIXED TOP-BAR */
+  .is-header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .is-main-content {
+    padding-top: 15%;
+    background-color: #fff;
+  }
+
+    /* WRAPPER*/
+    .is-wrapper {
+      width: 94%;
+      margin: 0 auto;
+    }
+
+    /* HEADLINES HERO-SECTION */
+    .is-hero-section h1 {
+      font-size: 2.3rem;
+    }
+    .is-hero-section h4 {
+      font-size: 1.6rem;
+    }
+
+    /* HEADLINES BLOCK-GRID */
+    .is-block-grid p {
+      padding-right: 0.9rem;
+      line-height: 1.4;
+      _text-align: justify;
+    }
+    .is-block-grid h4 {
+      line-height: 1;
+      font-size: 1.4rem;
+    }
+
+    /* BLOCK-GRID ELEMENTS */
+    .is-block-grid .cell {
+      display: flex;
+      padding: 1rem 0;
+    }
+    .is-block-grid figure {
+      width: 150px;
+      padding-right: 0.5rem;
+    }
+
+    /* FOOTER ELEMENTS */
+    .is-footer-mainSection {
+      padding-left: 2rem;
+    }
+
+    /* ABOUT-PHOTO-GALLERY*/
+    .is-gallery .cell {
+      padding: 6px;
+    }
+
+    .is-about-textAlign p {
+      padding: 0 2rem;
+      text-align: justify;
+    }
+
+    /* SLIDE CAROUSEL*/
+    .owl-item {
+      padding: 1rem 1rem 0 1rem;
+    }
+
+    /* Is contact-form */
+    .is-contact-form {
+      width: 95%;
+      margin: 0 auto;
+      padding: 2rem 0.9rem;
+      box-shadow: none;
+    }
+
+
+}
+
+
+/* LARGE SCREENS MIN-WIDTH 1008PX*/
+@media screen and (min-width: 1008px) {
+
+
+    /* HEADLINES*/
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+    }
+
+    /* HEADER FULL-SCREEN HIGHT*/
+    .is-header {
+      height: 100vh;
+    }
+
+    .is-header-contact {
+      height: 70vh;
+    }
+
+    /* HIDE OFF-CANVAS-MENU */
+    .off-canvas-wrapper {
+      display: none;
+    }
+
+    /* Fits The Hero Section In LARGE SCREENS In the Middle*/
+    .is-hero-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 80vh;
+    }
+
+    /* CONTACT-HERO-SECTION  */
+    .is-contact-hero {
+      height: 60vh;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+
+    /* HERO-SECTION HEADLINES */
+    .is-hero-section h1 {
+      font-size: 3.8rem;
+    }
+    .is-hero-section h4 {
+      font-size: 2.6rem;
+    }
+
+    /* BLOCK-GRID ELEMENTS */
+    .is-block-grid h4 {
+      font-size: 1.5rem;
+    }
+    .is-block-grid figure {
+      width: 180px;
+      padding-right: 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ende*/
